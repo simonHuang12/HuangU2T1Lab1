@@ -7,5 +7,6 @@ public class CatRunner {
         Cat cat2 = new Cat("Joe", 12412, 0.2);
         cat2.introduce();
         cat2.printCatInfo();
+        cat2.chonk();
     }
 }

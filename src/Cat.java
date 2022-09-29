@@ -15,14 +15,20 @@ public class Cat {
 
     // method that introduces the Cat
     public void introduce() {
-        System.out.println("Hello my name is " + name);
+        System.out.print("Hello my name is " + name);
         if(age<7) {
-            System.out.print("and I am a younger cat.");
+            System.out.println(" and I am a younger cat.");
         }else{
-            System.out.print("and I am an older cat.");
+            System.out.println(" and I am an older cat.");
         }
     }
-
+    public void chonk() {
+        if(weight>18) {
+            System.out.println("I am a big cat");
+        }else{
+            System.out.println("I am a small cat");
+        }
+    }
     // method that prints Cat info
     public void printCatInfo() {
         System.out.println("Name: " + name);
